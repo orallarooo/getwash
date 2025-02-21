@@ -7,9 +7,9 @@ export const Header = () => {
     return ( 
         <header className="header">
             <div className="header__container">
-                <div className="logo">
+                <a href="#" className="logo">
                     <img src={get_img_logo} alt="" />
-                </div>
+                </a>
                 <nav className="header__nav">
                     <ul className="header__nav-items">
                         <li className="header__nav-item">

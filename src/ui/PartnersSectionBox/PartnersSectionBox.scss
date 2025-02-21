@@ -1,0 +1,24 @@
+.partners-box {
+    width: 100%;
+    box-shadow: 0px 16px 20px 0px #141B4108;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 39px 0 33px;
+}
+
+.partners-box__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #F7F8FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners-box p {
+    margin-top: 24px;
+    max-width: 176px;
+}

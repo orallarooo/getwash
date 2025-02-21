@@ -9,4 +9,10 @@
     border-radius: 6px;
     border: none;
     color: #fff;
+
+    transition: opacity .5s ease;
+}
+
+.blue-btn:hover {
+    opacity: .8;
 }

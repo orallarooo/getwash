@@ -3,16 +3,16 @@ import { SectionBox } from "../../ui/StartSectionBox/SectionBox";
 import "./StartSection.scss"
 
 import download_img from "../../assets/images/Download.svg";
-import location_img from "../../assets/images/Location.png";
-import filter_img from "../../assets/images/Filter.png";
-import wallet_img from "../../assets/images/Wallet.png";
+import location_img from "../../assets/images/Location.svg";
+import filter_img from "../../assets/images/Filter.svg";
+import wallet_img from "../../assets/images/Wallet.svg";
+
 
 export const StartSection = () => {
   return (
     <section className="start-section">
       <div className="start-section__container">
         <div className="start-section__left">
-          aedaedwww
         </div>
         <div className="start-section__right">
           <h2 className="start-section__title">

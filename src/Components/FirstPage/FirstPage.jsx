@@ -1,4 +1,4 @@
-import vector_img from "../../assets/images/Arrow1.png";
+import vector_img from "../../assets/images/Arrow1.svg";
 import { BlueButton } from "../BlueBotton/BlueButton";
 
 import "./FirstPage.scss";
