@@ -1,0 +1,38 @@
+.first-page {
+    padding: 222px 0 120px;
+    width: 100%;
+    height: auto;
+    background-image: url("../../assets/images/iPhone.png"), url("../../assets/images/Transaction.png");
+    background-repeat: no-repeat;
+    background-position: right center, right bottom;
+    background-size: auto, ;
+}
+
+.first-page__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.first-page__title {
+    max-width: 620px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    color: #141B41;
+}
+.first-page__title span {
+    margin-left: 20px;
+}
+.first-page__subtitle {
+    margin-top: 20px;
+    margin-bottom: 29px;
+    max-width: 524px;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    color: #72727E;
+}

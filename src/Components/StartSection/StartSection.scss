@@ -1,0 +1,28 @@
+.start-section {
+    width: 100%;
+    height: auto;
+}
+
+.start-section__container {
+    max-width: 1210px;
+    margin: 0 auto;
+    display: flex;  
+}
+
+.start-section__left {
+    width: 50%;
+}
+
+.start-section__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    color: #141B41;
+}
+.start-section__boxes {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}

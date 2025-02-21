@@ -1,0 +1,35 @@
+.header {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header__nav {
+    width: 100%;
+    max-width: 570px;
+}
+.header__nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-item {
+    list-style: none;
+}
+.header__nav-link {
+    text-decoration: none;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+    color: #72727E;
+
+}

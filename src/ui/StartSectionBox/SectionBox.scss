@@ -1,0 +1,31 @@
+.section-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-box__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #F7F8FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-box__text h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    color: #141B41;
+}
+.section-box__text p {
+    margin-top: 8px;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+    color: #72727E;
+}
