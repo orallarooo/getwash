@@ -9,9 +9,16 @@
     border: 1px solid #E9ECF5;
     color: #446DF6;
     transition: ease .5s all;
+
+    @media screen and (max-width: 1000px) {
+        margin-top: 40px;
+        background-color: #446DF6;
+        color: #E9ECF5;
+    }
 }
 .btn:hover {
     background-color: #446DF6;
     color: #fff;
     border-color: #446DF6;
 }
+

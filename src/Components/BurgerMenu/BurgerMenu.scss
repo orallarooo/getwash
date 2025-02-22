@@ -1,0 +1,51 @@
+
+.burger-menu {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left:18px;
+  border-left: 1px solid #E9ECF5;
+
+  @media screen and (max-width: 1000px) {
+    display: flex;
+  }
+
+  .burger-icon {
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+    z-index: 10; 
+
+    span {
+      width: 100%;
+      height: 2px;
+      border-radius: 2px;
+      background-color: #72727e;
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    &.open {
+      transform: rotate(45deg); // Rotate the whole icon
+
+      span {
+        &:nth-child(1) {
+          transform: translateY(9px); // Move the top line
+        }
+
+        &:nth-child(2) {
+          opacity: 0; // Hide the middle line
+        }
+
+        &:nth-child(3) {
+          transform: translateY(-9px) rotate(-90deg); // Move and rotate the bottom line
+        }
+      }
+    }
+  }
+}
